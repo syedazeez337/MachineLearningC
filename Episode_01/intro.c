@@ -61,9 +61,9 @@ int main(void)
 	for(size_t i = 0;i < 100; ++i)
 	{
 		float dcost = (cost(w - eps) - cost(w))/eps;
-	    printf("%f\n", cost(w));
-	    w -= rate*dcost;
-	    printf("%f\n", cost(w));
+	        printf("%f\n", cost(w));
+	        w -= rate*dcost;
+	        printf("%f\n", cost(w));
 	}
 	printf("X--------------X\n");
 
