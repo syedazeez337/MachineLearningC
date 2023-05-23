@@ -72,7 +72,7 @@ int main(void)
 	return 0;
 }
 /*
-printf("%f\n", cost(w - eps));
+        printf("%f\n", cost(w - eps));
 	printf("%f\n", cost(w - eps*2));
 	printf("%f\n", dcost);
 */
